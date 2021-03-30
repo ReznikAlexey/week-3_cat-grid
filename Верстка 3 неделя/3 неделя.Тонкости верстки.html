@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Бабуленькины котятки</title>
+    <link rel="stylesheet" href="style.3week.css">
+</head>
+<body>
+    <h1>Бабуленькины котятки</h1>
+    <main>
+        <div class="filters"> 
+            <label for="Vse">Все породы</label>            
+            <label for="abyssinianСat">Абиссинская</label>            
+            <label for="britishСat">Британская</label>            
+            <label for="russianBlueСat">Русская голубая</label>            
+            <label for="siameseCat">Сиамская</label>
+        </div>
+        <input type="radio" id="Vse" name="cats" checked>
+        <input type="radio" id="abyssinianСat" name="cats">
+        <input type="radio" id="britishСat" name="cats">
+        <input type="radio" id="russianBlueСat" name="cats">
+        <input type="radio" id="siameseCat" name="cats">
+        <div class="photos">
+            <div class="Bri photo-1">
+                <img src="image/bri2.jpg" alt="Британская">
+                <span>Гоша, 4 года</span>
+            </div>
+            <div class="RuBlu photo-2">
+                <img src="image/RuBlue.jpg" alt="Русская голубая">
+                <span>Жора, 5 года</span>
+            </div>
+            <div class="Abi photo-3">
+                <img src="image/abis1.jpg" alt="Абиссинская">
+                <span>Том, 6 года</span>
+            </div>
+            <div class="Siam photo-4">
+                <img src="image/siam2.jpg" alt="Сиамская">
+                <span>Рокки, 3 года</span>
+            </div>
+            <div class="Abi photo-5">
+                <img src="image/abis2.jpg" alt="Абиссинская">
+                <span>Пушок, 5 года</span>
+            </div>
+            <div class="Siam photo-6">
+                <img src="image/Siams.jpg" alt="Сиамская">
+                <span>Наоми, 4 года</span>
+            </div>
+            <div class="bri photo-7">
+                <img src="image/BRTN.png" alt="Британская">
+                <span>Цунами, 8 года</span>
+            </div>
+            <div class="RuBlu photo-8">
+                <img src="image/rusblu2.jpg" alt="Русская голубая">
+                <span>Соня, 2 года</span>
+            </div>
+        </div>
+        <div class="rating">
+            
+            <p>Рейтинг</p>
+            <label for="che"> по убыванию</label>
+            <input id="che" type="checkbox" class="rating__check">       
+            <div class="rating_bar">
+
+                <div class="abisRe">
+                    <p>Абиссинская</p>
+                    <div class="abiBar"></div>
+                    <span>9</span>
+                </div>
+
+                <div class="britsRe">
+                    <p>Британская</p>                    
+                    <div class="briBar" style="margin: 0%;"></div>
+                    <span>8</span>                    
+                </div>
+
+                <div class="ruBluRe">
+                    <p>Русская голубая</p>                    
+                    <div class="ruBluBar" style="margin: 0%;"></div>
+                    <span>10</span>                    
+                </div>
+
+                <div class="siamRe">
+                    <p>Сиамская</p>                    
+                    <div class="siamBar" style="margin: 0%;"></div>
+                    <span>4</span>                
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div>&copy; ООО Бабуленькины котятки, 2015</div>
+        <div>Наш адресс: улица Котовая, д.5</div>
+    </footer>
+</body>
+</html>
